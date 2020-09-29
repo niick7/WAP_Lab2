@@ -1,0 +1,70 @@
+body {
+  background-color: #595645;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: sans-serif, serif;
+}
+
+.my_songs a { 
+  color: red;
+}
+
+h1, h3 {
+  color: #93BDF8;
+}
+
+.page_title {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+.my_mood img {
+  width: 240px;
+}
+
+.aboutme span {
+  color: #EEF46B;
+}
+
+section {
+  margin-top: 32px;
+}
+
+.song_first_p, section span {
+  font-style: italic;
+  color: pink;
+}
+
+ol li {
+  padding-left: 4px;
+}
+
+/* Tricky */
+a {
+  text-decoration: none;
+}
+
+p::first-letter {
+  font-size: 1.5em;
+}
+
+dl {
+  font-size: 14px;
+}
+
+dl dt {
+  color: #EEF46B;
+}
+
+dl dd {
+  font-weight: normal;
+}
+
+ol {
+  transform: rotate(180deg);
+  margin-left: 40px;
+}
+ol > li {
+  transform: rotate(-180deg);
+}
+/* Tricky */
