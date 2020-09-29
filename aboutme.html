@@ -66,5 +66,15 @@
         <img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="CSS Validate" />
       </a>
     </section>
+
+    <script>
+      window.addEventListener('load', function () {
+        var a_html = document.getElementById('html_validator');
+        a.href = "https://validator.w3.org/check?uri=" + window.location.href;
+
+        var a_css = document.getElementById('css_validator');
+        a.href = "http://jigsaw.w3.org/css-validator/check?uri=" + window.location.href;
+      })
+    </script>
   </body>
 </html>
