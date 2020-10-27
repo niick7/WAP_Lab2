@@ -1,1 +1,1 @@
-# WAP_Lab2
+# Web Application Programming Lab2
